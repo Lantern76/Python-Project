@@ -1,45 +1,6 @@
-# === CORE DATA & AI STACK ===
-pandas==2.3.3           # Data manipulation (the queen)
-numpy==2.3.3            # Numerical computing
-scipy==1.16.1           # Scientific tools (stats, optimization)
+# === DATA & ENVIRONMENT ===
+pandas==2.3.3           # Data manipulation queen
+python-dotenv==1.2.1    # Load .env variables with elegance
 
-# === VISUALIZATION ===
-matplotlib==3.10.7      # Classic plots
-seaborn==0.13.2         # Statistical beauty
-plotly==5.24.1          # Interactive dashboards
-
-# === MACHINE LEARNING ===
-scikit-learn==1.5.2     # Classic ML (regression, clustering, etc.)
-xgboost==3.1.1          # Gradient boosting powerhouse
-lightgbm==4.5.0         # Fast, efficient boosting
-
-# === DEEP LEARNING (Lightweight) ===
-torch==2.9.0            # PyTorch (flexible, research-friendly)
-torchvision==0.20.0     # Computer vision utilities
-tensorflow==2.20.0      # Optional: TensorFlow (if you prefer Keras)
-
-# === NLP & TEXT ===
-nltk==3.9.1             # Classic NLP
-spacy==3.7.5            # Modern NLP (install models separately)
-transformers==4.56.1    # Hugging Face (pre-trained models)
-
-# === AUTOMATION & UTILITIES ===
-requests==2.32.5        # HTTP for APIs
-beautifulsoup4==4.14.2  # Web scraping
-selenium==4.25.0        # Browser automation
-pyautogui==0.9.54       # GUI automation
-openpyxl==3.1.5         # Excel read/write
-python-dotenv==1.2.1    # Environment variables
-
-# === PRODUCTIVITY ===
-jupyter==1.1.1          # Notebooks
-ipython==8.27.0         # Enhanced shell
-tqdm==4.66.5            # Progress bars
-pydantic==2.12.0        # Data validation
-loguru==0.7.3           # Better logging
-
-# === OPTIONAL: DATABASE & CLOUD ===
-sqlalchemy==2.0.35      # ORM for databases
-psycopg2-binary==2.9.11 # PostgreSQL
-boto3==1.40.73          # AWS SDK
-gspread==6.2.1          # Google Sheets
+# === JUPYTER / VS CODE NOTEBOOKS ===
+ipykernel==6.29.5       # Run notebooks in VS Code with style
